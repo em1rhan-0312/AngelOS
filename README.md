@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.png" width="96" alt="Angel OS logo"/>
+  <img src="docs/logo.png" width="240" alt="Angel OS logo"/>
   <h1 align="center">Angel OS</h1>
   <p align="center"><b>Fly With Your Angel</b></p>
   <p align="center">A clean, fast and ready-to-use Linux distribution with a simple installer, a complete office and development toolkit, and its own identity.</p>
