@@ -147,49 +147,6 @@ Pick the kernel from the boot menu (Advanced options).
 
 Angel OS' own packages (such as `angel-welcome`) are built from the PKGBUILDs in [`repo/`](repo/README.md). To host your own copy, see that folder's README. A GitLab CI pipeline ([`.gitlab-ci.yml`](.gitlab-ci.yml)) publishes the repository through GitLab Pages.
 
-## Build from Source
-
-You need an Arch Linux machine or VM with about 25 GB of free space.
-
-```bash
-sudo pacman -S archiso git base-devel
-git clone https://gitlab.com/emirhan.0312/angel-os.git
-cd angel-os
-chmod +x build.sh
-sudo ./build.sh        # run with sudo from your normal user, not as root directly
-```
-
-The ISO is written to `out/`. The first build is slow because the installer is compiled from the AUR; compiled packages are cached in `localrepo/`, so later builds are faster.
-
-## Project Layout
-
-```
-angel-os/
-├── build.sh                  # builds the ISO
-├── repo/                     # Angel OS pacman repository (PKGBUILDs + build script)
-├── .gitlab-ci.yml            # publishes the repository with GitLab Pages
-├── docs/logo.png             # logo used in this README
-├── overlay/
-│   ├── packages.extra        # software included on the ISO
-│   ├── boot/splash.png       # boot menu background
-│   └── airootfs/             # files copied into the live system
-└── ROADMAP.md
-```
-
-## Roadmap
-
-- [x] Branding: name, logo, boot splash, wallpapers, terminal logo
-- [x] Office and development software
-- [x] Angel Welcome
-- [x] Repository tooling (`repo/`)
-- [ ] Installer polish and real-hardware testing
-- [ ] Publish the `[angel]` repository
-- [ ] Signed packages
-- [ ] Automated builds and version numbers
-- [ ] Offline installation
-
-See [ROADMAP.md](ROADMAP.md) for details.
-
 ## Support & Community
 
 - **Instagram (official):** [@angel0sofficial](https://instagram.com/angel0sofficial)
