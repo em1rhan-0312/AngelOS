@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://ibb.co/M5Zt7L02" width="96" alt="Angel OS logo"/>
+  <img src="docs/logo.png" width="96" alt="Angel OS logo"/>
   <h1 align="center">Angel OS</h1>
   <p align="center"><b>Fly With Your Angel</b></p>
-  <p align="center">A clean, fast and ready-to-use Linux distribution with a graphical installer, a complete office and development toolkit, and its own identity.</p>
+  <p align="center">A clean, fast and ready-to-use Linux distribution with a simple installer, a complete office and development toolkit, and its own identity.</p>
   <p align="center">
     <a href="https://claude.ai/artifact/PzL9zfNfjpqzN31AfZCobc">Website</a> ·
     <a href="https://instagram.com/angel0sofficial">Instagram</a> ·
@@ -43,9 +43,10 @@ Angel OS is a rolling-release distribution built to be installed in minutes and 
 
 ### Installer
 
-- Graphical installer (Calamares) with Angel OS branding
+- Simple step-by-step installer with Angel OS branding
 - Welcome screen written in 12 languages
-- Steps: language, time zone, keyboard, disk, user, summary
+- Steps: language, time zone, keyboard, disk, kernels, user, summary
+- Optional extra kernels (`linux-lts`, `linux-zen`, `linux-hardened`) in a dedicated installer step
 - One desktop, no questions about it
 - Online install: the newest packages are downloaded during setup
 
@@ -67,6 +68,7 @@ Angel OS is a rolling-release distribution built to be installed in minutes and 
 | **Files and Archives** | Dolphin, Ark |
 | **Documents and Images** | Okular, Gwenview, Spectacle |
 | **Media** | mpv |
+| **Windows apps** | Wine, Winetricks (run many `.exe` programs; compatibility varies) |
 | **Creative** | ArtCraft Launcher (installs and starts the ArtCraft apps; early builds) |
 | **System** | Konsole, KCalc, KDE Partition Manager, Timeshift (backups), htop, fastfetch |
 
@@ -111,7 +113,7 @@ sha256sum angel-os-*.iso
 
 1. Write the ISO to a USB drive (Ventoy, balenaEtcher, or `dd`) and boot from it.
 2. The live desktop starts automatically. Open **Install Angel OS** from the welcome window or the desktop.
-3. Follow the installer: language, time zone, keyboard, disk, user, summary.
+3. Follow the installer: language, time zone, keyboard, disk, kernels, user, summary.
 4. Wait for the system to download and install, then reboot.
 
 ### Virtual Machine
@@ -125,7 +127,7 @@ Recommended VirtualBox settings:
 
 ## Kernels
 
-The standard `linux` kernel is installed by default. Additional kernels are available from the repositories and can be added at any time (the Angel Welcome window has a shortcut):
+The standard `linux` kernel is always installed. The installer's **Kernels** step lets you add more, and you can add them later too (the Angel Welcome window has a shortcut):
 
 | Package | Best for |
 | :--- | :--- |
@@ -166,6 +168,7 @@ angel-os/
 ├── build.sh                  # builds the ISO
 ├── repo/                     # Angel OS pacman repository (PKGBUILDs + build script)
 ├── .gitlab-ci.yml            # publishes the repository with GitLab Pages
+├── docs/logo.png             # logo used in this README
 ├── overlay/
 │   ├── packages.extra        # software included on the ISO
 │   ├── boot/splash.png       # boot menu background
