@@ -167,7 +167,3 @@ Angel OS is an independent project, built on the work of many others:
 - **Linux Kernel Community**: the kernel
 
 Arch Linux, KDE and all other names are trademarks of their respective owners. Angel OS is not affiliated with them.
-
-## License
-
-Add a `LICENSE` file before publishing (GPL-3.0 is the usual choice for a distribution project). Third-party components keep their own licenses.
