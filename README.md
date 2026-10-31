@@ -194,7 +194,7 @@ Angel OS is developed under the **Project-0312** umbrella.
 ## Support & Community
 
 - **Instagram (official):** [@angel0sofficial](https://instagram.com/angel0sofficial)
-- **Developer:** [@_e0312](https://instagram.com/_e0312) · [GitLab](https://gitlab.com/emirhan.0312) · [GitHub](https://github.com/em1rhan-0312)
+- **Developer:** [@me1nmacht](https://instagram.com/me1nmacht) · [GitLab](https://gitlab.com/emirhan.0312) · [GitHub](https://github.com/em1rhan-0312)
 - **Email:** jinglelot@gmail.com
 
 Bug reports and ideas are welcome as issues on GitHub or GitLab.
