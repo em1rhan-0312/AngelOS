@@ -4,6 +4,7 @@
   <p align="center"><b>Fly With Your Angel</b></p>
   <p align="center">A clean, fast and ready-to-use Linux distribution with a simple installer, a complete office and development toolkit, and its own identity.</p>
   <p align="center">
+    [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/emirhan0312)
     <a href="https://em1rhan-0312.github.io/angelos-web/">Website</a> ·
     <a href="https://instagram.com/angel0sofficial">Instagram</a> ·
     <a href="https://gitlab.com/emirhan.0312">GitLab</a> ·
