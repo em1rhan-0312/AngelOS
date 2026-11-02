@@ -12,7 +12,11 @@
   </p>
 </div>
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/emirhan0312)
+<div align="center">
+  <a href="https://buymeacoffee.com/emirhan0312" target="_blank">
+    <img src="https://img.shields.io/badge/BUY_ME_A_COFFEE-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
+  </a>
+</div>
 
 ## Table of Contents
 
