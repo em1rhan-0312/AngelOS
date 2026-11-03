@@ -21,6 +21,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Photos](#photos)
 - [Features](#features)
   - [Installer](#installer)
   - [Desktop and Look](#desktop-and-look)
