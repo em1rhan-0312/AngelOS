@@ -42,6 +42,13 @@
 ## Overview
 
 Angel OS is a rolling-release distribution built to be installed in minutes and used right away. You get a polished desktop, an installer that does not ask technical questions you do not care about, and a software selection that covers work, study and everyday use out of the box.
+## Photos
+
+<img width="1920" height="1080" alt="VirtualBox_archangel_03_11_2026_22_43_14" src="https://github.com/user-attachments/assets/39512c0e-9081-4557-91b3-3da3dae0b058" />
+<img width="1920" height="1080" alt="VirtualBox_archangel_03_11_2026_22_45_27" src="https://github.com/user-attachments/assets/f44b9561-ad1a-422c-8e4d-5939ffee2194" />
+<img width="1920" height="1080" alt="angelos welcome" src="https://github.com/user-attachments/assets/4f7ff08a-a2e5-4e57-a106-03df27f2c213" />
+<img width="1920" height="1080" alt="angelos apps" src="https://github.com/user-attachments/assets/69007bbf-2f1b-499f-9d42-dc240dfdaecd" />
+
 
 > [!NOTE]
 > Angel OS is in **alpha**. The first public ISO (`2026.10.31`) is out. Expect rough edges, try it in a virtual machine first and do not install it on a disk with important data.
