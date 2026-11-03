@@ -5,7 +5,7 @@
   <p align="center">A clean, fast and ready-to-use Linux distribution with a simple installer, a complete office and development toolkit, and its own identity.</p>
   <p align="center">
     <a href="https://em1rhan-0312.github.io/angelos-web/">Website</a> ·
-    <a href="https://instagram.com/angel0sofficial">Instagram</a> ·
+    <a href="https://instagram.com/angelosofficial_">Instagram</a> ·
     <a href="https://gitlab.com/emirhan.0312">GitLab</a> ·
     <a href="https://github.com/em1rhan-0312">GitHub</a> ·
     <a href="https://github.com/em1rhan-0312/angelos-web">Site source</a>
