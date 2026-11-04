@@ -6,7 +6,7 @@
   <p align="center">
     <a href="https://em1rhan-0312.github.io/angelos-web/">Website</a> ·
     <a href="https://instagram.com/angelosofficial_">Instagram</a> ·
-    <a href="https://em1rhan-0312.github.io/angelos-web/indir.html">Download</a> ·
+    <a href="">Download</a> ·
     <a href="https://gitlab.com/emirhan.0312">GitLab</a> ·
     <a href="https://github.com/em1rhan-0312">GitHub</a> ·
     <a href="https://github.com/em1rhan-0312/angelos-web">Site source</a>
